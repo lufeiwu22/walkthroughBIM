@@ -59,7 +59,7 @@ fun Bmi() {
         OutlinedTextField(
             value = heightInput,
             onValueChange = {heightInput = it.replace(',','.')},
-            label =  {Text(stringResource(R.string.weight))},
+            label =  {Text(stringResource(R.string.height))},
             singleLine = true,
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
             modifier = Modifier
